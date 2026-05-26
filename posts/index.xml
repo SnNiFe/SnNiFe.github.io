@@ -13,7 +13,7 @@
       <link>https://SnNiFe.github.io/posts/hello-world/</link>
       <pubDate>Tue, 26 May 2026 22:21:46 +0900</pubDate>
       <guid>https://SnNiFe.github.io/posts/hello-world/</guid>
-      <description>&lt;p&gt;#연습용 글 입니다.&lt;/p&gt;&#xA;&lt;p&gt;앞에 샵 하나는 제목&lt;/p&gt;&#xA;&lt;p&gt;**굵은 글씨는 양쪽 별 두 개**&lt;/p&gt;</description>
+      <description>&lt;p&gt;# 연습용 글 입니다.&lt;/p&gt;&#xA;&lt;p&gt;앞에 샵 하나 띄어서 제목&lt;/p&gt;&#xA;&lt;p&gt;**굵은 글씨는 양쪽 별 두 개**&lt;/p&gt;&#xA;&lt;p&gt;**볼드체**&lt;/p&gt;&#xA;&lt;p&gt;**BOLD TEXT** in English&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
