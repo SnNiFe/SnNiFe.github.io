@@ -6,8 +6,15 @@
     <description>Recent content in Posts on SnNiFe의 블로그</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 May 2026 22:21:46 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 14:06:49 +0900</lastBuildDate>
     <atom:link href="https://SnNiFe.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git과 Hugo를 받고 Github로 블로그 만들기</title>
+      <link>https://SnNiFe.github.io/posts/260527001/</link>
+      <pubDate>Wed, 27 May 2026 14:06:49 +0900</pubDate>
+      <guid>https://SnNiFe.github.io/posts/260527001/</guid>
+      <description>&lt;p&gt;우선 Git을 다운로드 받아야 하는데&#xA;공식 홈페이지&#xA;&lt;a href=&#34;https://git-scm.com/&#34;&gt;https://git-scm.com/&lt;/a&gt;&#xA;에서 OS에 맞게 다운로드를 하여 설치한다.&lt;/p&gt;&#xA;&lt;p&gt;그 후 윈도우 기준으로&#xA;PowerShell에서 명령어를 통해 hugo 다운로드&#xA;winget install Hugo.Hugo.Extended&lt;/p&gt;&#xA;&lt;p&gt;다운로드가 완료 되면 PowerShell을 닫았다가 재실행 하고&#xA;hugo version&#xA;으로 설치가 되었는지 확인을 해본다.&lt;/p&gt;&#xA;&lt;p&gt;Github를 이용하여 블로그를 만들 예정이므로&#xA;&lt;a href=&#34;https://github.com/&#34;&gt;https://github.com/&lt;/a&gt;&#xA;에서 깃허브에 가입한다.&lt;/p&gt;&#xA;&lt;p&gt;Repositories 옆의 New를 눌러 새로운 repo를 생성하는데 repo 이름은&#xA;사용자이름.github.io&#xA;로 하여 public으로 생성하면 해당 주소로 된 블로그를 만들 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;이하 추후 수정하여 추가 예정&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hello World</title>
       <link>https://SnNiFe.github.io/posts/hello-world/</link>
