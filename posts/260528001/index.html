@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>260528001 | SnNiFe의 블로그</title>
+    <title>마크다운 문법 | SnNiFe의 블로그</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="description" content="1. 현재 위치 확인
 현재 디렉터리 확인
@@ -167,7 +167,7 @@ $ rm -rf 폴더/파일/...
     
     <meta property="og:url" content="https://SnNiFe.github.io/posts/260528001/">
   <meta property="og:site_name" content="SnNiFe의 블로그">
-  <meta property="og:title" content="260528001">
+  <meta property="og:title" content="마크다운 문법">
   <meta property="og:description" content="1. 현재 위치 확인 현재 디렉터리 확인 현재 내가 어느 위치에 있는지 절대 경로로 출력 $ pwd C:/Users/kimna/Desktop/test 바탕화면으로 이동 cd 명령어로 원하는 디렉터리로 이동 $ cd ~/Desktop 현재 위치의 파일 폴더 목록 보기 현재 디렉터리 안의 파일과 폴더를 나열 $ ls 숨김 파일 포함, 상세 정보까지 보기 $ ls -al 2. 폴더(디렉터리) 만들기 및 이동 test 폴더 안에서 새로운 폴더 만들기 $ mkdir linux_practice 중첩 폴더를 한번에 만들기 (-p 옵션) $ mkdir -p linux_practice/src/utils 만든 폴더로 이동 $ cd linux_practice 상위 폴더로 이동하기 $ cd .. 3. 파일 만들기 및 내용 확인 빈 파일 만들기 (tuoch) touch로 빈 파일 생성 $ cd ~개인경로/linux_practice $ touch hello.txt &gt;는 덮어쓰기, &gt;&gt;는 내용 추가 가급적이면 &gt;는 사용 금지 $ echo &#34;Hello, Linux!&#34; &gt; hello.txt $ echo &#34;두 번째 줄 추가&#34; &gt;&gt; hello.txt 파일 내용 확인 파일 전체 내용을 터미널에 출력 $ cat hello.txt vi 편집기 익히기 $ vi memo.txt 기본 문법 vi 편집기 : 개발자 필수 / 분석가 옵션 / 기획자, 공부하지 마세요! 개발자의 경우 : 앞으로 markdown 작업할 때, vi 편집기로 하는 것 추천 키 동작 i 삽입 모드 진입 (현재 커서 앞) ESC 일반 모드로 복귀 :w 저장 :q 종료 :wq 저장 후 종료 :q! 저장 없이 강제 종료 5. 파일 폴더 복사, 이동, 삭제 파일 복사 (cp) cp 원본 복사본 형식 $ cp hello.txt hello_backup.txt 폴더 전체 복사 (-r 옵션) $ cp -r linux_practice/ linux_practice_backup/ 파일 폴더 이동 / 이름 변경 (mv) 같은 위치에서 이름만 바꾸면 이름 변경 $ mv hello_backup.txt hello_copy.txt archive 폴더 생성 hello_copy.txt 파일을 archive 이동 (mv) $ mkdir archive $ mv hello_copy.txt archive/ 파일 삭제 (rm) 파일 삭제 $ rm 파일명 폴더 전체 삭제 (-r 옵션) $ rm - r archive 강제 삭제 -rf $ rm -rf 폴더/파일/...">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
@@ -175,13 +175,13 @@ $ rm -rf 폴더/파일/...
     <meta property="article:published_time" content="2026-05-28T14:51:27+09:00">
     <meta property="article:modified_time" content="2026-05-28T14:51:27+09:00">
 
-  <meta itemprop="name" content="260528001">
+  <meta itemprop="name" content="마크다운 문법">
   <meta itemprop="description" content="1. 현재 위치 확인 현재 디렉터리 확인 현재 내가 어느 위치에 있는지 절대 경로로 출력 $ pwd C:/Users/kimna/Desktop/test 바탕화면으로 이동 cd 명령어로 원하는 디렉터리로 이동 $ cd ~/Desktop 현재 위치의 파일 폴더 목록 보기 현재 디렉터리 안의 파일과 폴더를 나열 $ ls 숨김 파일 포함, 상세 정보까지 보기 $ ls -al 2. 폴더(디렉터리) 만들기 및 이동 test 폴더 안에서 새로운 폴더 만들기 $ mkdir linux_practice 중첩 폴더를 한번에 만들기 (-p 옵션) $ mkdir -p linux_practice/src/utils 만든 폴더로 이동 $ cd linux_practice 상위 폴더로 이동하기 $ cd .. 3. 파일 만들기 및 내용 확인 빈 파일 만들기 (tuoch) touch로 빈 파일 생성 $ cd ~개인경로/linux_practice $ touch hello.txt &gt;는 덮어쓰기, &gt;&gt;는 내용 추가 가급적이면 &gt;는 사용 금지 $ echo &#34;Hello, Linux!&#34; &gt; hello.txt $ echo &#34;두 번째 줄 추가&#34; &gt;&gt; hello.txt 파일 내용 확인 파일 전체 내용을 터미널에 출력 $ cat hello.txt vi 편집기 익히기 $ vi memo.txt 기본 문법 vi 편집기 : 개발자 필수 / 분석가 옵션 / 기획자, 공부하지 마세요! 개발자의 경우 : 앞으로 markdown 작업할 때, vi 편집기로 하는 것 추천 키 동작 i 삽입 모드 진입 (현재 커서 앞) ESC 일반 모드로 복귀 :w 저장 :q 종료 :wq 저장 후 종료 :q! 저장 없이 강제 종료 5. 파일 폴더 복사, 이동, 삭제 파일 복사 (cp) cp 원본 복사본 형식 $ cp hello.txt hello_backup.txt 폴더 전체 복사 (-r 옵션) $ cp -r linux_practice/ linux_practice_backup/ 파일 폴더 이동 / 이름 변경 (mv) 같은 위치에서 이름만 바꾸면 이름 변경 $ mv hello_backup.txt hello_copy.txt archive 폴더 생성 hello_copy.txt 파일을 archive 이동 (mv) $ mkdir archive $ mv hello_copy.txt archive/ 파일 삭제 (rm) 파일 삭제 $ rm 파일명 폴더 전체 삭제 (-r 옵션) $ rm - r archive 강제 삭제 -rf $ rm -rf 폴더/파일/...">
   <meta itemprop="datePublished" content="2026-05-28T14:51:27+09:00">
   <meta itemprop="dateModified" content="2026-05-28T14:51:27+09:00">
   <meta itemprop="wordCount" content="283">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="260528001">
+  <meta name="twitter:title" content="마크다운 문법">
   <meta name="twitter:description" content="1. 현재 위치 확인 현재 디렉터리 확인 현재 내가 어느 위치에 있는지 절대 경로로 출력 $ pwd C:/Users/kimna/Desktop/test 바탕화면으로 이동 cd 명령어로 원하는 디렉터리로 이동 $ cd ~/Desktop 현재 위치의 파일 폴더 목록 보기 현재 디렉터리 안의 파일과 폴더를 나열 $ ls 숨김 파일 포함, 상세 정보까지 보기 $ ls -al 2. 폴더(디렉터리) 만들기 및 이동 test 폴더 안에서 새로운 폴더 만들기 $ mkdir linux_practice 중첩 폴더를 한번에 만들기 (-p 옵션) $ mkdir -p linux_practice/src/utils 만든 폴더로 이동 $ cd linux_practice 상위 폴더로 이동하기 $ cd .. 3. 파일 만들기 및 내용 확인 빈 파일 만들기 (tuoch) touch로 빈 파일 생성 $ cd ~개인경로/linux_practice $ touch hello.txt &gt;는 덮어쓰기, &gt;&gt;는 내용 추가 가급적이면 &gt;는 사용 금지 $ echo &#34;Hello, Linux!&#34; &gt; hello.txt $ echo &#34;두 번째 줄 추가&#34; &gt;&gt; hello.txt 파일 내용 확인 파일 전체 내용을 터미널에 출력 $ cat hello.txt vi 편집기 익히기 $ vi memo.txt 기본 문법 vi 편집기 : 개발자 필수 / 분석가 옵션 / 기획자, 공부하지 마세요! 개발자의 경우 : 앞으로 markdown 작업할 때, vi 편집기로 하는 것 추천 키 동작 i 삽입 모드 진입 (현재 커서 앞) ESC 일반 모드로 복귀 :w 저장 :q 종료 :wq 저장 후 종료 :q! 저장 없이 강제 종료 5. 파일 폴더 복사, 이동, 삭제 파일 복사 (cp) cp 원본 복사본 형식 $ cp hello.txt hello_backup.txt 폴더 전체 복사 (-r 옵션) $ cp -r linux_practice/ linux_practice_backup/ 파일 폴더 이동 / 이름 변경 (mv) 같은 위치에서 이름만 바꾸면 이름 변경 $ mv hello_backup.txt hello_copy.txt archive 폴더 생성 hello_copy.txt 파일을 archive 이동 (mv) $ mkdir archive $ mv hello_copy.txt archive/ 파일 삭제 (rm) 파일 삭제 $ rm 파일명 폴더 전체 삭제 (-r 옵션) $ rm - r archive 강제 삭제 -rf $ rm -rf 폴더/파일/...">
 
       
@@ -239,7 +239,7 @@ $ rm -rf 폴더/파일/...
     <header class="mt4 w-100"><aside class="instapaper_ignoref b helvetica tracked ttu">
     Posts
 </aside><div id="sharing" class="mt3 ananke-socials"></div>
-<h1 class="f1 athelas mt3 mb1">260528001</h1>
+<h1 class="f1 athelas mt3 mb1">마크다운 문법</h1>
       
       
       
